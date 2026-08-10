@@ -126,7 +126,7 @@
   }
   .project-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 28px;
   }
   @media (max-width: 760px) { .project-grid { grid-template-columns: 1fr; } }
@@ -225,7 +225,7 @@
 </div>
 
 <div class="wrap projects">
-  <h2>Two projects, two different engineering problems</h2>
+  <h2>Three projects, three different engineering problems</h2>
   <div class="project-grid">
 
     <div class="project-card">
@@ -261,6 +261,19 @@
       <a class="btn" href="https://terrence721.github.io/platform-main/portfolio.html">View project →</a>
     </div>
 
+    <div class="project-card">
+      <p class="kicker">In progress · Java + Gradle</p>
+      <h3>saga-full</h3>
+      <p class="pitch">
+        A from-scratch implementation of the Distributed Saga pattern across
+        independent microservices — order placement, payment, and fulfillment,
+        coordinated with compensating transactions instead of a shared database
+        transaction. Being built one service at a time, with the reasoning
+        behind each design decision recorded as it happens.
+      </p>
+      <a class="btn" href="https://github.com/Terrence721/saga-full">View repo →</a>
+    </div>
+
   </div>
 </div>
 
@@ -271,6 +284,7 @@
       <a href="https://www.linkedin.com/in/terrence-daniels">LinkedIn</a>
       <a href="https://github.com/Terrence721/coolify-full">coolify-full repo</a>
       <a href="https://github.com/Terrence721/platform-main">platform-main repo</a>
+      <a href="https://github.com/Terrence721/saga-full">saga-full repo</a>
     </div>
     <p class="fine">
       Every number on this page is reproducible from each project's own commit
