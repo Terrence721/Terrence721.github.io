@@ -190,6 +190,15 @@
   .stat-strip div { text-align: left; }
   .stat-strip .v { display: block; font-size: 1.05rem; color: var(--accent); font-weight: 700; }
   .stat-strip .k { display: block; font-size: 0.62rem; letter-spacing: 0.06em; color: var(--ink-soft); text-transform: uppercase; margin-top: 2px; }
+  .status-strip {
+    padding: 16px 0;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 20px;
+    font-family: var(--font-mono);
+  }
+  .status-strip .v { display: block; font-size: 1.05rem; color: var(--accent-2); font-weight: 700; }
+  .status-strip .k { display: block; font-size: 0.72rem; letter-spacing: 0.02em; color: var(--ink-soft); margin-top: 4px; }
   .project-card .btn {
     display: inline-flex;
     align-items: center;
@@ -242,7 +251,7 @@
 </div>
 
 <div class="wrap projects">
-  <h2>Three projects, three different engineering problems</h2>
+  <h2>Each one of these projects solve different problems.</h2>
   <div class="project-grid">
 
     <div class="project-card">
@@ -297,6 +306,22 @@
       <a class="btn" href="https://terrence721.github.io/saga-full/portfolio.html">View project →</a>
     </div>
 
+    <div class="project-card">
+      <p class="kicker">Full-stack · React + Express</p>
+      <h3>conduit-full</h3>
+      <p class="pitch">
+        An independently modernized fork of RealWorld's Conduit example app: a
+        Medium-style publishing platform rebuilt one file at a time, with every
+        dependency and pattern brought up to its current latest along the way
+        — not a wholesale copy of the source repo.
+      </p>
+      <div class="status-strip">
+        <span class="v">In Progress</span>
+        <span class="k">rebuilding file by file — see commit history</span>
+      </div>
+      <a class="btn" href="https://github.com/Terrence721/conduit-full">View project →</a>
+    </div>
+
   </div>
 </div>
 
@@ -308,6 +333,7 @@
       <a href="https://github.com/Terrence721/coolify-full">coolify-full repo</a>
       <a href="https://github.com/Terrence721/platform-main">platform-main repo</a>
       <a href="https://github.com/Terrence721/saga-full">saga-full repo</a>
+      <a href="https://github.com/Terrence721/conduit-full">conduit-full repo</a>
     </div>
     <p class="fine">
       Every number on this page is reproducible from each project's own commit
