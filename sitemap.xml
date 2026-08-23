@@ -20,4 +20,24 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://terrence721.github.io/conduit-full/portfolio.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://terrence721.github.io/directus-main/portfolio.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <url>
+    <loc>https://terrence721.github.io/eshop-full/portfolio.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://terrence721.github.io/AxonFramework-Full/portfolio.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  </url>
 </urlset>
